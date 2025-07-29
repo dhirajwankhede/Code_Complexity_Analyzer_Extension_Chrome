@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Code Complexity Analyzer",
+  "version": "2.0",
+  "description": "Upload code and get its time and space complexity using Groq API",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab",
+    "clipboardRead"
+],
+"author": "© Dhiraj Wankhede",
+"homepage_url": "https://github.com/dhirajwankhede",
+
+  "icons": {
+  "128": "icon1.jpg"
+},
+"action": {
+  "default_popup": "popup.html",
+  "default_icon": "icon1.jpg"
+},
+
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+}

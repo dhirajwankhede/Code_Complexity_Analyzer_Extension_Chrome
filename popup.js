@@ -1,5 +1,3 @@
- // Replace with your key
-
 document.getElementById("analyzeBtn").addEventListener("click", async () => {
     try {
         const clipboardText = await navigator.clipboard.readText();

@@ -24,6 +24,7 @@ cd Code_Complexity_Analyzer_Extension_Chrome
 ### 2.Create a new file named config.js in the root folder and write the line given below with your groq api key in it:
 
 // config.js
+
 const GROQ_API_KEY = "your_groq_api_key_here";
 
 ### 3. Load Extension in Chrome
